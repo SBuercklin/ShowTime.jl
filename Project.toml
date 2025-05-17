@@ -1,0 +1,14 @@
+name = "ShowTime"
+uuid = "8e9fbd02-e9ca-41d0-a20a-ab3a47c5ec0a"
+authors = ["Sam Buercklin <sam.buercklin@gmail.com> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.6.7"
+
+[extras]
+Aqua = "4c88cf16-eb10-579e-8560-4a9242c79595"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Aqua", "Test"]
