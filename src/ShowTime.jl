@@ -9,6 +9,8 @@ module ShowTime
 
 using AutoHashEquals: @auto_hash_equals
 
+include("dsl/DSL.jl")
+
 include("DisplayWrapper.jl")
 export DisplayWrapper, NoLimitWrapper
 
