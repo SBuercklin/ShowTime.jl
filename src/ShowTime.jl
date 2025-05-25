@@ -1,5 +1,8 @@
 module ShowTime
 
-# Write your package code here.
+using AutoHashEquals: @auto_hash_equals
+
+include("DisplayWrapper.jl")
+export DisplayWrapper, NoLimitWrapper
 
 end
