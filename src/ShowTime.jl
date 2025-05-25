@@ -10,6 +10,8 @@ module ShowTime
 using AutoHashEquals: @auto_hash_equals
 
 include("dsl/DSL.jl")
+using .DSL
+export ParentShowWrapper, Joiner, FieldName, Header
 
 include("DisplayWrapper.jl")
 export DisplayWrapper, NoLimitWrapper
